@@ -15,7 +15,7 @@ export CONDA_ENVS_PATH=$HOME/.conda/envs
 DATA_DIR="/my_data/"
 export DATA_DIR
 source /home/eouser/flair_venv/bin/activate
-which python3
+which python
 cd $HOME/exp_2026/LCC_Aer_SITS_MaxViT_HR_ConvFormer_LR
 srun python main.py --config_file=./configs/train_main/
 
