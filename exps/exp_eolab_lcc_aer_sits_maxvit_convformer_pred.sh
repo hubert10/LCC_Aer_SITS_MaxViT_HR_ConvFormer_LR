@@ -17,7 +17,7 @@ export DATA_DIR
 source /home/eouser/flair_venv/bin/activate
 which python
 cd $HOME/exp_2026/LCC_Aer_SITS_MaxViT_HR_ConvFormer_LR
-srun python main.py --config_file=./configs/train_main/
+python main.py --config_file=./configs/train_main/
 
 
 
