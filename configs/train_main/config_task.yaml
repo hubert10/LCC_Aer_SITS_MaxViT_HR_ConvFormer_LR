@@ -44,7 +44,7 @@ inputs:
     sat_reflectance_infer: 2_000 
 
 hyperparams:
-    num_epochs: 150
+    num_epochs: 15
     batch_size: 10
     seed: 2025
     lr: 0.00006
