@@ -84,7 +84,7 @@ saving:
     progress_rate: 100
     ckpt_verbose: True
     verbose_config: False
-    mode: "train" # ["train", "eval"]
+    mode: "eval" # ["train", "eval"]
     resume: False
 
 
